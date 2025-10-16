@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+
+.navbar {
+    background-color: #222;
+}
+nav {
+    padding: 15px;
+    text-align: right;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.header {
+    background-color: #c7cbe6;
+    text-align: center;
+    padding: 40px 20px;
+}
+.header img {
+    width: 120px;
+    border-radius: 50%;
+}
+.header h1 {
+    margin: 15px 0 5px;
+}
+.header p {
+    margin: 0;
+    font-style: italic;
+}
+
+
+.highlight {
+    color: blue;
+    font-weight: bold;
+}
+
+
+section {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+}
+section h2 {
+    background-color: #b0b5de;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.works {
+    text-align: center;
+}
+
+.work-item {
+    margin-bottom: 30px;
+    background: #fafafa;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.work-item img {
+    width: 90%;
+    max-width: 600px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+.work-item p {
+    font-style: italic;
+    font-size: 14px;
+    margin: 8px 0;
+    text-align: center;
+}
+
+.work-item ul {
+    list-style-type: none;   
+    padding: 0;
+}
+
+.work-item ul li {
+    text-align: left;
+    margin: 5px auto;
+    max-width: 400px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, textarea, select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    padding: 10px;
+    border: none;
+    background-color: #5c6bc0;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #3f51b5;
+}
+
+.contact-section {
+    text-align: center;       
+}
+
+.contact-section form {
+    display: inline-block;    
+    text-align: left;        
+    margin: 0 auto;          
+}
+
